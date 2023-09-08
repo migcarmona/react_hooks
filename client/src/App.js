@@ -4,6 +4,7 @@ import ComponentX from './components/UseContext/ComponentX';
 import ComponentZ from './components/UseContext/ComponentZ'; */
 import UseStateDataFetch from './components/DataFetching/UseStateDataFetch';
 import UseReducerDataFetch from './components/DataFetching/UseReducerDataFetch';
+import MyMemoCounter from './components/UseMemoPractice/MyMemoCounter';
 
 
 import './App.css';
@@ -30,7 +31,8 @@ function App() {
     /*     <CountContext.Provider value={{countState: count, countDispatch: dispatch}}> */
     <div className="App">
       {/* <UseStateDataFetch /> */}
-      <UseReducerDataFetch />
+      {/* <UseReducerDataFetch /> */}
+      <MyMemoCounter />
     </div>
   );
 }
