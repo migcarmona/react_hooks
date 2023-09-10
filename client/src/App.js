@@ -5,9 +5,9 @@ import ComponentZ from './components/UseContext/ComponentZ'; */
 import UseStateDataFetch from './components/DataFetching/UseStateDataFetch';
 import UseReducerDataFetch from './components/DataFetching/UseReducerDataFetch';
 import MyMemoCounter from './components/UseMemoPractice/MyMemoCounter';
-
-
+import FocusInput from './components/UseRefPractice/FocusInput';
 import './App.css';
+import Timer from './components/UseRefPractice/Timer';
 
 /* export const CountContext = React.createContext()
 
@@ -32,7 +32,9 @@ function App() {
     <div className="App">
       {/* <UseStateDataFetch /> */}
       {/* <UseReducerDataFetch /> */}
-      <MyMemoCounter />
+      {/* <MyMemoCounter /> */}
+      {/* <FocusInput /> */}
+      <Timer />
     </div>
   );
 }
